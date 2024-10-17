@@ -1,5 +1,6 @@
 from fastapi import FastAPI
-from core.config import settings
+from recipes.core.config import settings
+
 
 class App(FastAPI):
     def __init__(self, *args, **kwargs) -> None:
@@ -10,5 +11,6 @@ class App(FastAPI):
             title=settings.PROJECT_NAME,
             root_path=settings.ROOT_PATH
         )
+
 
 app = App()
