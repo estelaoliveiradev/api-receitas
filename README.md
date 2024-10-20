@@ -8,6 +8,7 @@
  - [x] Libs python - pyenv, poetry, taskipy, ruff, fixtures, coverage, factory-boy, freezegun, testcontainer
  - [x] Docker
  - [x] CI/DI
+ - [x] TDD 
 
 
 ### Para rodar o projeto
